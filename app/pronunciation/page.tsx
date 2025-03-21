@@ -13,73 +13,139 @@ export default function PronunciationPage() {
 
   const basicPhrases = [
     {
-      tamil: "வணக்கம்",
-      transliteration: "Vaṇakkam",
-      english: "Hello",
-      audioSrc: "/audio/vanakkam.mp3",
+      tamil: "உண் - to eat",
+      transliteration: "அவன் மெதுவாக உண்கிறான்.",
+      english: "He is eating slowly.",
+      audioSrc: "/eat/audio_1.mp3",
     },
     {
-      tamil: "நன்றி",
-      transliteration: "Naṉṟi",
-      english: "Thank you",
-      audioSrc: "/audio/nandri.mp3",
+      tamil: "தின் - to munch",
+      transliteration: "மாடுகள் பசுமை நிறைந்த புல்லை மென்று தின்றன.",
+      english: "The cows munched on the green grass.",
+      audioSrc: "/eat/audio_2.mp3",
     },
     {
-      tamil: "எப்படி இருக்கிறீர்கள்?",
-      transliteration: "Eppaṭi irukkiṟīrkaḷ?",
-      english: "How are you?",
-      audioSrc: "/audio/how-are-you.mp3",
+      tamil: "விழுங்கு - to swallow",
+      transliteration: "அவள் அவசரமாக உணவை விழுங்கிவிட்டாள்.",
+      english: "She hastily swallowed the food.",
+      audioSrc: "/eat/audio_3.mp3",
     },
     {
-      tamil: "நான் நன்றாக இருக்கிறேன்",
-      transliteration: "Nāṉ naṉṟāka irukkiṟēṉ",
-      english: "I am fine",
-      audioSrc: "/audio/i-am-fine.mp3",
+      tamil: "சாப்பிடு - to eat/consume",
+      transliteration: "குழந்தை மண்ணை சாப்பிட்டது.",
+      english: "The child ate sand.",
+      audioSrc: "/eat/audio_4.mp3",
     },
     {
-      tamil: "உங்கள் பெயர் என்ன?",
-      transliteration: "Uṅkaḷ peyar eṉṉa?",
-      english: "What is your name?",
-      audioSrc: "/audio/what-is-your-name.mp3",
+      tamil: "விழுங்கு - to swallow",
+      transliteration: "அவன் மருந்தை விழுங்கிவிட்டான்.",
+      english: "He swallowed the medicine.",
+      audioSrc: "/eat/audio_5.mp3",
     },
     {
-      tamil: "என் பெயர்...",
-      transliteration: "Eṉ peyar...",
-      english: "My name is...",
-      audioSrc: "/audio/my-name-is.mp3",
+      tamil: "மென்று சாப்பிடு - To chew and eat",
+      transliteration: "மிட்டாயை  மென்று சாப்பிடு, அப்படியே முழுங்காதே!",
+      english: "Chew the candy, don’t just swallow it.",
+      audioSrc: "/eat/audio_6.mp3",
     },
+    {
+      tamil: "உண் - To eat",
+      transliteration: "விருந்தை உண்டு மகிழுங்கள்!",
+      english: "Enjoy the feast!",
+      audioSrc: "/eat/audio_7.mp3",
+    },
+    {
+      tamil: "கடி - to bite",
+      transliteration: "அவன் வாயில் பேனா வைத்துக்கொண்டு கடிக்கிறான்.",
+      english: "He is biting a pen in his mouth.",
+      audioSrc: "/eat/audio_8.mp3",
+    },
+    {
+      tamil: "புசி - To graze",
+      transliteration: "பசு பசியாக இருந்ததால், புல்லை புசித்து விட்டது.",
+      english: "The cow was hungry, so it ate the grass.",
+      audioSrc: "/eat/audio_9.mp3",
+    }
   ]
 
   const numbers = [
     {
-      tamil: "ஒன்று",
-      transliteration: "Oṉṟu",
-      english: "One",
-      audioSrc: "/audio/one.mp3",
+      tamil: "பருகு - to sip/drink",
+      transliteration: "அவன் தீர்த்தத்தை பருகினான்.",
+      english: "He drank the holy water.",
+      audioSrc: "/drink/drink_audio_1.mp3",
     },
     {
-      tamil: "இரண்டு",
-      transliteration: "Iraṇṭu",
-      english: "Two",
-      audioSrc: "/audio/two.mp3",
+      tamil: "உட்கொள் - to intake",
+      transliteration: "நீர் அதிகம் உட்கொள்ளுங்கள்.",
+      english: "Drink plenty of water.",
+      audioSrc: "/drink/drink_audio_2.mp3",
     },
     {
-      tamil: "மூன்று",
-      transliteration: "Mūṉṟu",
-      english: "Three",
-      audioSrc: "/audio/three.mp3",
+      tamil: "சவை - to taste",
+      transliteration: "அவன் காஷ்மீரி பானத்தை சுவைத்தான்.",
+      english: "He tasted the Kashmiri drink.",
+      audioSrc: "/drink/drink_audio_3.mp3",
     },
     {
-      tamil: "நான்கு",
-      transliteration: "Nāṉku",
-      english: "Four",
-      audioSrc: "/audio/four.mp3",
+      tamil: "குடி - to drink",
+      transliteration: "அவன் வெந்நீர் குடிக்கிறான்.",
+      english: "He is drinking hot water.",
+      audioSrc: "/drink/drink_audio_4.mp3",
     },
     {
-      tamil: "ஐந்து",
-      transliteration: "Aintu",
-      english: "Five",
-      audioSrc: "/audio/five.mp3",
+      tamil: "முடி - to finish",
+      transliteration: "ஓட்டத்திற்குப் பிறகு, அவள் ஒரு குவளை  தண்ணீரை முடித்து விட்டாள்",
+      english: "After the run, she finished a vessel full of water.",
+      audioSrc: "/drink/drink_audio_5.mp3",
+    },
+    {
+      tamil:"உறி - to suck",
+      transliteration: "தேநீரை மெதுவாக உறிஞ்சு  குடி",
+      english:"Drink the tea with patience.",
+      audioSrc: "/drink/drink_audio_6.mp3",
+    },
+    {
+      tamil:"ருசி - to taste",
+      transliteration: "அவள் தேநீரை ரசித்து ருசித்தாள்.",
+      english:"She sipped and enjoyed the tea.",
+      audioSrc: "/drink/drink_audio_7.mp3",
+    },
+    {
+      tamil: "தணி - to quench",
+      transliteration: "தண்ணீர் குடித்து என் தாகத்தைத் தணித்தேன்.",
+      english: "I quenched my thirst by drinking water.",
+      audioSrc: "/drink/drink_audio_8.mp3",
+    },
+    {
+      tamil: "குடி - to drink",
+      transliteration: "அவன் காபி குடிக்கிறான்.",
+      english: "He is drinking coffee.",
+      audioSrc: "/drink/drink_audio_9.mp3",
+    },
+    {
+      tamil: "அருந்து - to drink",
+      transliteration: "கடலின் அழகை கண்கள் அருந்தின.",
+      english: "Eyes enjoyed the beauty of the sea.",
+      audioSrc: "/drink/drink_audio_10.mp3",
+    },
+    {
+      tamil:"குடி - to drink",
+      transliteration:"குடி குடியை கெடுக்கும்.",
+      english:"Alcohol ruins households.",
+      audioSrc:"/drink/drink_audio_11.mp3"
+    },
+    {
+      tamil:"குடி - to drink",
+      transliteration:"உப்பை தின்னவன் தண்ணி குடிக்கணும்",
+      english:"The one who ate salt has to drink water.",
+      audioSrc:"/drink/drink_audio_12.mp3"
+    },
+    {
+      tamil:" உறி - To suck",
+      transliteration:"இன்றைய வெயில் எனது சக்தியைக் உறிஞ்சு விட்டது",
+      english:"Today’s heat has sucked up all my energy.",
+      audioSrc:"/drink/drink_audio_13.mp3"
     },
   ]
 
@@ -162,15 +228,15 @@ export default function PronunciationPage() {
 
         <Tabs defaultValue="phrases" className="w-full">
           <TabsList className="grid w-full grid-cols-3">
-            <TabsTrigger value="phrases">Basic Phrases</TabsTrigger>
-            <TabsTrigger value="numbers">Numbers</TabsTrigger>
+            <TabsTrigger value="phrases">Eat</TabsTrigger>
+            <TabsTrigger value="numbers">Drink</TabsTrigger>
             <TabsTrigger value="common">Common Words</TabsTrigger>
           </TabsList>
 
           <TabsContent value="phrases" className="mt-6">
             <Card>
               <CardHeader>
-                <CardTitle>Basic Tamil Phrases</CardTitle>
+                <CardTitle>Eat</CardTitle>
                 <CardDescription>Essential phrases to help you start communicating in Tamil.</CardDescription>
               </CardHeader>
               <CardContent>
