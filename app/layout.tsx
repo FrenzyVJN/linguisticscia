@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Linguistics wasteu",
-  description: "Group 2 dhaan pannom",
+  title: "Linguistics CIA",
+  description: "Group 2 Project",
 };
 
 export default function RootLayout({
